@@ -60,6 +60,7 @@
 		{
 			"name": "QMakeProject",
 			"details": "https://github.com/nsubiron/sublime-qmakeproject-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -190,7 +191,6 @@
 		{
 			"name": "Quick File Move",
 			"details": "https://github.com/wulftone/sublime-text-quick-file-move",
-			"previous_names": ["Quick File Renamer", "QuickFileMove"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -212,8 +212,12 @@
 			"details": "https://github.com/facelessuser/QuickCal",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "3000 - 4200",
 					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4201",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -248,6 +252,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "QuickLineNavigator",
+			"author": "ChenZhu-Xie",
+			"details": "https://github.com/ChenZhu-Xie/QuickLineNavigator",
+			"labels": ["search", "grep", "highlight"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -304,7 +320,6 @@
 		{
 			"name": "QuickRef Command Lookup",
 			"details": "https://bitbucket.org/rablador/quickref",
-			"previous_names": ["QuickRef"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -323,9 +338,19 @@
 			]
 		},
 		{
+			"name": "QuickRulers",
+			"description": "Easy access to the \"rulers\" setting",
+			"details": "https://github.com/FichteFoll/QuickRulers",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": "v"
+				}
+			]
+		},
+		{
 			"name": "QuickSearchEnhanced",
 			"details": "https://github.com/shagabutdinov/sublime-quick-search-enhanced",
-			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
 			"labels": ["sublime-enhanced", "text navigation"],
 			"releases": [
 				{
